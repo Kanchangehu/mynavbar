@@ -10,13 +10,13 @@ body{
 }
 
 nav{
-    background: purple;
+    background: rgb(90, 51, 90);
     height: 80px;
     width: 100%;
 }
 label.logo{
     color: white;
-    font-size: 35px;
+    font-size: 40px;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
@@ -32,7 +32,7 @@ nav ul li{
 }
 nav ul li a{
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
@@ -51,7 +51,7 @@ a.active, a:hover{
     display: none;
 }
 
-@media(max-width:800px){
+@media(max-width:900px){
     label.logo{
         font-size: 30px;
         padding-left: 50px;
@@ -101,11 +101,14 @@ section{
 }
 
 footer{
-    background: rgb(108, 60, 108);
+    background: rgb(46, 33, 46);
     width: 100%;
     color: white;
     font-size: 15px;
-    padding: 3px;
+    padding: 8px;
     position: fixed;
     bottom: 0px;
+}
+footer li{
+    padding: 2px;
 }
